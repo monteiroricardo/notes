@@ -19,13 +19,13 @@ class NewNoteView extends StatelessWidget {
                 alignment: Alignment.topCenter,
                 children: [
                   Container(
-                    margin: EdgeInsets.all(
+                    margin: const EdgeInsets.all(
                       10,
                     ),
                     width: (MediaQuery.of(context).size.width * 60) / 100,
                     height: (MediaQuery.of(context).size.height * 70) / 100,
                     child: Card(
-                      elevation: 5,
+                      elevation: 3,
                       color: Colors.blueAccent,
                       child: Padding(
                         padding: const EdgeInsets.all(15),
